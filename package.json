@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "nmp run build",
     "preview": "vite preview",
+    "scss": "npx sass --watch ./public/scss/style.scss:./public/css/style.css""deploy": "gh-pages -d dist",
     "scss": "npx sass --watch ./public/scss/style.scss:./public/css/style.css"
   },
   "devDependencies": {
